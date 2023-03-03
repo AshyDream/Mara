@@ -5,6 +5,7 @@ const client = new Discord.Client({
         Discord.GatewayIntentBits.GuildMessages,
         Discord.GatewayIntentBits.GuildMembers,
         Discord.GatewayIntentBits.GuildVoiceStates,
+        Discord.GatewayIntentBits.GuildWebhooks,
         Discord.GatewayIntentBits.DirectMessages,
         Discord.GatewayIntentBits.MessageContent,
         Discord.GatewayIntentBits.Guilds
